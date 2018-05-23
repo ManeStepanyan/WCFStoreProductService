@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0e80d3c9-ac09-46e4-b717-e93874ab4aec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9021/Productik/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="6e19e4e4-8048-4862-b50a-2c6cfe48120a" SourceId="1" SourceUrl="http://localhost:9021/Productik/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="4859f44a-bc9e-4e52-b9c2-f0deb3a45d34" SourceId="1" SourceUrl="http://localhost:9021/Productik/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="3ef9a6a0-2d92-4ac7-b71e-a3c38b22c4a1" SourceId="1" SourceUrl="http://localhost:9021/Productik/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="adafbf79-d0b1-4c85-a4c8-67fb3e20e1c8" SourceId="1" SourceUrl="http://localhost:9021/Productik/?disco" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="b3a1b22b-9c6d-4dfb-9394-a55c2bc786ec" SourceId="1" SourceUrl="http://localhost:9021/Productik/?wsdl" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="a529316c-60e9-4293-a910-1f09e7d53c0c" SourceId="1" SourceUrl="http://localhost:9021/Productik/?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
